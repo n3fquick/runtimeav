@@ -12,4 +12,6 @@ Integration with systemd for service management
 
 To quickly install and run runtimeAV, use the following command:
 
+INSTALLATION:
+
 curl -sSL https://raw.githubusercontent.com/n3fquick/runtimeav/main/install.sh -o install.sh && chmod +x install.sh && sudo ./install.sh
