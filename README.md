@@ -14,3 +14,8 @@ To quickly install and run runtimeAV, use the following command:
 INSTALLATION:
 
 curl -sSL https://raw.githubusercontent.com/n3fquick/runtimeav/main/install.sh -o install.sh && chmod +x install.sh && sudo ./install.sh
+
+Useful Commands:
+
+run pm2 logs clamav-monitor to check logs for quarantined/monitored files.
+(pm2 will be downloaded during installation as well as node, if  already installed will be skipped)
