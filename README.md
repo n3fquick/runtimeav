@@ -1,2 +1,15 @@
-# runtimeav
-This script will install ClamAV and set up runtime script to monitor all public_html directories inside /home folder. Watchdog will monitor each time there is a file update or new file added and scan it immediately to avoid malicious script uploads or execution.
+runtimeAV
+runtimeAV is a shell script that automates the installation and configuration of ClamAV antivirus on Linux systems. It sets up real-time monitoring of all public_html directories inside the /home folder, scanning files immediately upon modification or addition to prevent the execution of malicious scripts or infected files.
+
+Key features:
+
+Automatic ClamAV installation and configuration
+Real-time monitoring and scanning of public_html directories
+Quarantine functionality for infected files
+Detailed logging and status reporting
+Automatic database updates
+Integration with systemd for service management
+
+To quickly install and run runtimeAV, use the following command:
+
+curl -sSL https://raw.githubusercontent.com/n3fquick/runtimeav/main/install.sh -o install.sh && chmod +x install.sh && sudo ./install.sh
