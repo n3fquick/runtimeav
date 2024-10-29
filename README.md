@@ -1,4 +1,3 @@
-runtimeAV
 runtimeAV is a shell script that automates the installation and configuration of ClamAV antivirus on Linux systems. It sets up real-time monitoring of all public_html directories inside the /home folder, scanning files immediately upon modification or addition to prevent the execution of malicious scripts or infected files.
 
 Key features:
